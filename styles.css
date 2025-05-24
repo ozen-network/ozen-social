@@ -1,0 +1,259 @@
+
+/* Add font files for SF Pro Display */
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('fonts/sf-pro-display.woff2') format('woff2'),
+       url('fonts/sf-pro-display.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --font-family-sf-pro-display: 'SF Pro Display', sans-serif;
+  --text-white: rgba(255, 255, 255, 0.2);
+}
+
+.text-white {
+  color: var(--text-white);
+}
+
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.rectangle-1-2 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border-left: 1px solid rgba(255, 255, 255, 0.08);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.text-5 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-sf-pro-display);
+  font-weight: 500;
+  font-size: 27.806039810180664px;
+  line-height: 37.0747184753418px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-white);
+}
+
+.1-4 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.text-7 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-sf-pro-display);
+  font-weight: 500;
+  font-size: 38.92845916748047px;
+  letter-spacing: -1%;
+  line-height: 44.489662170410156px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-white);
+}
+
+.2-6 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.text-9 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-sf-pro-display);
+  font-weight: 500;
+  font-size: 27.806039810180664px;
+  line-height: 37.0747184753418px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-white);
+}
+
+.3-8 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.text-11 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-sf-pro-display);
+  font-weight: 500;
+  font-size: 27.806039810180664px;
+  line-height: 37.0747184753418px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-white);
+}
+
+.4-10 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.text-13 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-sf-pro-display);
+  font-weight: 500;
+  font-size: 27.806039810180664px;
+  line-height: 37.0747184753418px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-white);
+}
+
+.5-12 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.text-15 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-sf-pro-display);
+  font-weight: 500;
+  font-size: 27.806039810180664px;
+  line-height: 37.0747184753418px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-white);
+}
+
+.6-14 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.text-17 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-sf-pro-display);
+  font-weight: 500;
+  font-size: 27.806039810180664px;
+  line-height: 37.0747184753418px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-white);
+}
+
+.7-16 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.text-19 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-sf-pro-display);
+  font-weight: 500;
+  font-size: 27.806039810180664px;
+  line-height: 37.0747184753418px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-white);
+}
+
+.8-18 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.rectangle-505-20 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 67.732666015625px;
+}
+
+.yap-21 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  width: 96.7004048451851%;
+  box-shadow: inset 0px 8.42042350769043px 8.42042350769043px 0px rgba(0,0,0,0.5);
+  border-radius: 178242.0625px;
+  width: 100%;
+  height: auto;
+}
+
+.group-1-3 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.prodiler-22 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  width: 13.4375%;
+  box-shadow: inset 0px 8.42042350769043px 8.42042350769043px 0px rgba(0,0,0,0.5);
+  border-radius: 178242.0625px;
+  width: 100%;
+  height: auto;
+}
+
+.union-23 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  fill: rgba(71, 107, 241, 1);
+  border: none;
+  outline: none;
+}
+
+.slide-16-9-1-1 {
+@media (max-width: 1440px) {
+  .slide-16-9-1-1 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slide-16-9-1-1 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
